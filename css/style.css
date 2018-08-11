@@ -1,0 +1,259 @@
+*, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Raleway ExtraBold', sans-serif;
+}
+body{
+    font-family: 'Raleway Regular', sans-serif;
+    font-size: 18px;
+    background-color: #0f243f;
+    overflow-x: hidden;
+}
+a{
+    font-family: 'Raleway Black', sans-serif;
+    color: #fff !important;
+}
+/*Block-1 CSS*/
+.block-1{
+    margin-bottom: 60px;
+    width: 100%;
+}
+li.nav-item{
+    padding-left: 65px; 
+}
+.logo{
+    padding: 10px 0px;
+    text-align:center;
+}
+.logo-box{
+    margin-top: 35px;
+    height: 80px;
+    width: 100%;
+    left: 0;
+    background-color:#fff;
+    display: inline-block;
+    position: absolute;
+    z-index: -1;
+}
+.dot {
+    height: 150px;
+    width: 150px;
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow: 0px 0px 5px #000; 
+    display: inline-block;
+    line-height: 130px;
+}
+.dot img{
+    vertical-align: middle;
+}
+.content{
+    background-image:url("../image/content.svg");
+    background-repeat: no-repeat;
+    height: 400px;
+    background-position: center;
+    margin: 20px;
+}
+/*Close Block-1 CSS*/
+
+/*Block-2 CSS*/
+.block-2{
+    padding: 80px 40px;
+    background-color:  #ffe2e9;
+}
+.block-card-2{
+    background-color:#A01A3A;
+    padding: 20px;
+    color: #fff;
+    box-shadow: 0px 0px 5px #000;
+}
+.block-2 h3{
+    margin-top: 15px;
+    font-size: 20px;
+}
+.block-2 p{
+    font-size: 14px;
+}
+/*Close Block-2 CSS*/
+
+/*Block-3 CSS*/
+.block-3{
+    padding: 80px 40px;
+    background-color: #fdfdfd !important;
+}
+.block-dot-3 {
+    height: 260px;
+    width: 260px;
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow: 0px 2px 10px; 
+    display: inline-block;
+}
+.block-content-3{
+    text-align: right;
+}
+.block-content-3 h1{
+    font-size: 50px;
+}
+.block-content-3 h3{
+    font-size: 24px;
+}
+/*Close Block-3 CSS*/
+
+/*Block-4 CSS*/
+.block-4{
+    background: #C6FFDD;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #f7797d, #FBD786, #C6FFDD);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #f7797d, #FBD786, #C6FFDD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 40px;
+}
+/*Close Block-4 CSS*/
+
+/* Contact Page CSS*/
+.contact-block-1{
+    padding: 40px;
+    background-color: #fff;
+}
+.form{
+    padding: 20px;
+}
+.btn{
+    width: 100%;
+    background-color: #3FEEE6;
+    border: 0;
+    font-family: 'Raleway Regular', sans-serif;
+    font-size: 20px;
+    color: #fff;
+    box-shadow: 0px 3px 0px #179892;
+}
+.btn:hover{
+    background-color: #179892;
+    box-shadow: 0px 3px 0px #3feee6;
+}
+#mask {
+    overflow: hidden;
+    border-radius: 50%;
+    position: relative;
+    z-index: 99;
+    height: 320px;
+    width: 320px;
+    box-shadow: 0px 2px 10px #3FEEE6;
+}
+#mask iframe {
+    position: absolute;
+    border-radius: 50%;
+    top: 0; left: 0;
+    z-index: 50;
+}
+.block-5{
+    padding: 80px 0px;
+    background-color: #fff;
+    background-image: url("../image/footer1.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+footer{
+    padding: 40px 40px 0px 40px;
+}
+.contact-info a{
+    color:#fb436c !important;
+    font-size: 16px;
+}
+.block-5 h2 {
+    font-size: 30px;
+    font-family: 'Raleway bold ', sans-serif;
+}
+.contact-info address{
+    font-size: 16px;
+}
+/*Close Contact Page CSS*/
+
+
+@media only screen and (max-width:900px) {
+    /*Block-2 CSS*/
+    .block-2{
+        padding: 20px 20px;
+        background-color:  #ffe2e9;
+    }
+    .block-card-2{
+        padding-top: 40px;
+    }
+    .block-2 p{
+        padding-bottom: 10px;
+    }
+    /*Close Block-2 CSS*/
+    
+    /*Block-3 CSS*/
+    .block-3{
+        padding: 40px 20px;
+        background-color: #fdfdfd !important;
+    }
+    .block-dot-3 {
+        height: 200px;
+        width: 200px;
+        margin-bottom: 40px;
+    }
+    .block-content-3{
+        text-align: center;
+    }
+    .block-content-3 h1{
+        font-size: 30px;
+    }
+    .block-content-3 h3{
+        font-size: 20px;
+    }
+    /*Close Block-3 CSS*/
+    .contact-block-1{
+        padding: 20px;
+    }
+    #mask {
+        height: 200px;
+        width: 200px;
+    }
+    .block-5{
+        padding: 80px 0px;
+        background-color: #fff;
+        background-image: url("../image/footer.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+@media only screen and (max-width:768px){
+    .content{
+        background-image:url("../image/content2.svg");
+    }
+    
+    .block-5{
+        padding: 80px 0px;
+        background-color: #fff;
+        background-image: url("../image/footer2.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+@media only screen and (max-width:400px){
+    .block-1{
+        margin-bottom: 40px;
+    }
+    .logo{
+        text-align:center;
+    }
+    .logo-box{
+        margin-top: 30px;
+        height: 40px;
+    }
+    .dot {
+        height: 100px;
+        width: 100px;
+    }
+    .dot img{
+        margin:0px 0px 38px 0px;
+        width: 80px;
+    }
+    .content{
+        background-image:url("../image/content1.svg");
+    }
+
+}
